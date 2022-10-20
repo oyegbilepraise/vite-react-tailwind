@@ -14,7 +14,7 @@ const Product = () => {
         </div>
       </div>
       <img src="/Images/bg-quotes.png" alt="" style={{ position: 'absolute', marginTop: '50px' }} />
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt" >
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt">
         {first.map(m => (
           <div className="card p-5" style={{ backgroundColor: '#20293C' }} key={m}>
             <p className="text-gray-200 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aspernatur amet omnis fuga commodi aperiam porro quibusdam facilis, dignissimos ut architecto, enim veritatis, magnam ipsam non dolores eos molestiae! Quod!?</p>
