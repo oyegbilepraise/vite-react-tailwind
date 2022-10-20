@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1D2330;
+  font-family: 'DM Sans', sans-serif;
+  /* background-image: url('/Images/bg-curvy-desktop.png');
+  background-repeat: no-repeat !important;
+  background-size: cover; */
+}
+
+body {
+    background-image: url('/Images/bg-curvy-desktop.png');
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+.button {
+  background-color: #43B1D1 !important;
+}
+
+.mt {
+  margin-top: 100px !important;
+}
