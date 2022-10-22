@@ -19,7 +19,7 @@ const Product = () => {
           <div className="card p-5" style={{ backgroundColor: '#20293C' }} key={m}>
             <p className="text-gray-200 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aspernatur amet omnis fuga commodi aperiam porro quibusdam facilis, dignissimos ut architecto, enim veritatis, magnam ipsam non dolores eos molestiae! Quod!?</p>
             <div className="flex my-3">
-              <img src="/Images/profile-1.jpg" width='40' height='40' className="rounded-full" alt="" />
+              <img src="/Images/profile-1.jpg" width='50' height='40' className="rounded-full" alt="" />
               <div className="mx-5">
                 <p className="text-white">Oyegbile Praise</p>
                 <p className="text-xs mt-2 text-gray-400">Software Engineer</p>
